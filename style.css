@@ -1,0 +1,9 @@
+body { font-family: sans-serif; background: #f0f0f0; margin: 0; padding: 0; }
+.container { max-width: 400px; margin: 50px auto; background: white; padding: 20px; border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+input[type="email"], input[type="password"], input[type="text"] { width: 100%; padding: 10px; margin: 5px 0; }
+button { padding: 10px; margin: 5px 2px; cursor: pointer; }
+#messages { max-height: 300px; overflow-y: auto; margin-bottom: 10px; }
+.message { padding: 8px; margin: 4px 0; border-radius: 4px; }
+.message.user { background: #d1e7dd; text-align: right; }
+.message.bot { background: #f8d7da; text-align: left; }
